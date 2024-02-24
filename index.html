@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock,Paper and scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>ROCK, PAPER and SCISSOR!!</h1>
+    <p>(Best of 3 rounds)</p>
+    <div class="score">
+        <div class="label">
+            Me
+        </div>
+        <div class="plscore">
+            0
+        </div>
+        <div class="compScore">
+            0
+        </div>
+        <div class="label">
+            Computer
+        </div>
+    </div>
+    <div class="choose">
+        <label> Rock <input class="rock" type="image" src="playerrock.png"></label>
+        <label> Paper <input class="paper" type="image" src="playerpaper.png"></label>
+        <label> Scissor <input class="scissor" type="image" src="playerscissor.png"></label>
+    </div>
+    <div class="res"></div>
+    <div class="play-again">
+        <button onclick="reset()">Play Again</button>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
